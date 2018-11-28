@@ -11,6 +11,8 @@ In order to host and run the web-based Digital Forensics Readiness Check you fir
 * [MySQL Database](https://                )
 * [Browser with JavaScript support](https://           )
 
+### Steps to get started
+
 
 ## Theoretical background
 
