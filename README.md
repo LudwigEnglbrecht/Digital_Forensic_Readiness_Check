@@ -6,6 +6,7 @@ The tool determines the levelof certain capabilities in an organisation based on
 
 <img src="docs/model.jpg" alt="A Capability Maturity Model for Digital Forensic Readiness" width="600px"/>
 
+**On the basis of this evaluation, specific measures can be initiated to make a company Digital Forensic ready.**
 
 
 ## Prerequisites and installation
