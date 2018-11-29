@@ -1,4 +1,4 @@
-var API_URL = "http://pcrw00023.uni-regensburg.de:30080/api.php";
+var API_URL = "./api.php";
 
 function getAllCapabilitylevel() {
 	
