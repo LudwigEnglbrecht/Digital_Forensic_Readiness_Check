@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/plain; charset=UTF-8">
+		<script language="javascript" type="text/javascript" src="evaluationScript.js"></script>
+		<script language="javascript" type="text/javascript" src="data.js"></script>
+		<script language="javascript" type="text/javascript" src="helper.js"></script>
+		<script language="javascript" type="text/javascript" src="strings.js"></script>
+		<link href="resource.css" rel="stylesheet">
+		<!-- Chart.js Lib-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.1/cerulean/bootstrap.min.css">
+		<!-- alert Lib -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js"></script>
+	</head>
+	<body>
+		<div id="chartRow" class="row" style="display: none;">
+			<div class="col-md-1">
+				<div align="center">
+					<span id="infoTable" class="badge badge-primary" style = "z-index: 99 !important; display: none; "><table id="capDescriptionTable" class="table" ></table></span>
+				</div>
+			</div>
+			<div class="col-md-10">
+				<div align="center">
+					<h2 id="h2_capability_level"></h2>
+					<button id="infoBtn" type="button" class="btn btn-primary"></button>
+					<div id="chart-container" style="width: 100%; height: 100%;">
+						<canvas  style="width:65%; height: 65%;" id="chart-area"></canvas>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+		<div id="loading" style="position: fixed;left: 45%;top: 40%;">
+			<img id="loading-image" height="100px" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/ab79a231234507.564a1d23814ef.gif" alt="Loading..." />
+		</div>
+		<div id="levelRow" class="row" style="display: none; margin-bottom:1px">
+			<div class="card bg-secondary mb-3" style="width: auto;margin:0 auto;">
+				<div class="card-header"><h3 id="h3_maturity_level"></h3></div>
+				<div class="card-body">
+					<div class="col-md-1">
+						<div align="center" style = "position:relative; transform:translateY(13%);">
+							<h3 id = "h3_show_maturity_level"></h3>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<ul class="nav flex-column nav-pills">
+							<li id="li1" style="margin-left: 2px;"><a id="level-1-tab" href="#level-1-content" data-toggle="tab"></a></li>
+							<li id="li2"><a id="level-2-tab" href="#level-2-content" data-toggle="tab"></a></li>
+							<li id="li3"><a id="level-3-tab" href="#level-3-content" data-toggle="tab"></a></li>
+							<li id="li4"><a id="level-4-tab" href="#level-4-content" data-toggle="tab"></a></li>
+							<li id="li5"><a id="level-5-tab" href="#level-5-content" data-toggle="tab"></a></li>
+						</ul>
+					</div>
+					<div class="col-md-8">
+						<div class="tab-content" id="tabs">
+							<div class="tab-pane" id="level-1-content"></div>
+							<div class="tab-pane" id="level-2-content"></div>
+							<div class="tab-pane" id="level-3-content"></div>
+							<div class="tab-pane" id="level-4-content"></div>
+							<div class="tab-pane" id="level-5-content"></div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div id="questionRow" class="row" style="display:none; margin-bottom: 20px;margin-left:0px; margin-right:0px">
+			  <button id="collapseBtn" class="btn btn-primary" style="height: 45px ;width: 100%; font-size: 1.2em" type="button" data-toggle="collapse" data-target="#collapseExample">
+			  </button>
+			<div class="collapse" id="collapseExample" style="width: 100%; height: 100%">
+				<div class="card bg-secondary mb-3" style="width: auto; height: auto">
+					<div class="card-body" style="padding-top: 0px; padding-bottom: 5px;">
+						<table id="t1" class="table"></table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

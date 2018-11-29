@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="resource.css" rel="stylesheet">
+		<script language="javascript" type="text/javascript" src="data.js"></script>
+		<script language="javascript" type="text/javascript" src="helper.js"></script>
+		<script language="javascript" type="text/javascript" src="strings.js"></script>
+		<script language="javascript" type="text/javascript" src="main.js"></script>
+		<!-- Bootstrap -->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!-- Bootswatch -->
+		<link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.1/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-0Mou2qXGeXK7k/Ue/a1hspEVcEP2zCpoQZw8/MPeUgISww+VmDJcy2ri9tX0a6iy" crossorigin="anonymous">
+		
+		<!-- Wheel Navbar-->
+		<script src="https://cdn.jsdelivr.net/npm/wheelnav@1.7.1/js/dist/raphael.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/wheelnav@1.7.1/js/dist/wheelnav.min.js"></script>
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js"></script>
+		
+	</head>
+	<body>				
+		<!-- Container -->
+		<div class="jumbotron">
+			<div class="row">
+				<div class="col-md-3">
+					<!-- Table for question chips -->
+					<table class="tableWheel">
+						<tbody id="tbodyWheel" class="tbodyWheel"></tbody>
+					</table>
+				</div>
+				<div class="col-md-6">	
+					<!-- wheel for Enabler -->
+					<div id="loading" class="text-center vertical-center">
+					  <img id="loading-image" height="100px" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/ab79a231234507.564a1d23814ef.gif" alt="Loading..." />
+					</div>
+					<div id="PieSlice" data-wheelnav data-wheelnav-cssmode data-wheelnav-slicepath="LineSlice" class="data-wheelnav"></div>	
+				</div>
+				<div class="col-md-3">
+						<button id="confirmBtn" class="btn btn-primary my-2 my-sm-0 nav-link" href="#" style="font-size:2em; display: none !important; margin-bottom: 20px !important;"></button>
+						<button id="generalInfoBtn" type="button" class="btn btn-primary" style="font-size:1.7em; display: none !important; margin-bottom: 20px !important;"></button>
+						<p id="infoText" class="card badge-type" style = "font-size:1.7em; z-index: 99 !important; display: none; width:auto; height:auto; padding: 10px"></p>
+						<span id="enablerInfo" style="display:none; margin-bottom: 15px"></span>
+				</div>
+			</div>
+			<!-- Progressbar -->
+			<div class="progress">
+				<div id="progressBar" class="progress-bar" role="progressbar">
+					<span class="sr-only"></span>
+				 </div>
+			</div>
+			
+			<!-- Questionblock -->
+			<div id="questionBlock" style="display: none">		
+				<!--<div class="card border-primary mb-3" style="max-width: 100%; visibility: hidden">-->
+				<div id="questionCard" class="card mb-3 questionCard-style">	
+					<div id="questionTitle" class="card-header questionTitle-style"></div>
+					<div class="row">
+						<div class="col-md-11">
+							<div class="card-body">
+								<p id="cardText" class="card-text"></p>
+							</div>
+						</div>
+						<div class="col-md-1">
+							<span id="yesButton" class="glyphicon glyphicon-ok-sign glyphicon-style float-right" ></span>	
+							<span id="noButton" class="glyphicon glyphicon-remove-sign glyphicon-style float-right"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

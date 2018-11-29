@@ -1,0 +1,180 @@
+#PieSlice > svg { width: 100%; height: 100%; }
+#PieSlice { height: 350px; width: 350px; margin:auto; }
+@media (max-width: 400px) { #PieSlice { height: 300px; width: 300px; } }
+
+[class|=wheelnav-PieSlice-slice-basic],
+
+[class|=wheelnav-PieSlice-slice-selected] {
+	fill: #efefef;
+	stroke: #fff;
+	stroke-width: 2;
+}
+
+[class|=wheelnav-PieSlice-slice-hover] {
+    fill: #efefef;
+	stroke: #fff;
+    stroke-width: 2;
+    cursor: pointer;
+}
+
+[class|=wheelnav-PieSlice-title-basic]{
+	fill: #fff;	
+}
+
+[class|=wheelnav-PieSlice-title-selected] {
+	fill: #5596e6;
+    stroke: none;
+}
+
+[class|=wheelnav-PieSlice-title-hover] {
+    fill: #5596e6;
+    stroke: none;
+    cursor: pointer;
+}
+	
+[class|=wheelnav-PieSlice-title] > tspan {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.wheelnav-PieSlice-slice-basic-0 {
+	fill: #0e4882;
+	stroke: #fff;
+	stroke-width: 2;
+}
+
+.wheelnav-PieSlice-slice-basic-1 {
+    fill: #4f79bc;
+	stroke: #fff;
+	stroke-width: 2;
+}
+
+.wheelnav-PieSlice-slice-basic-2 {
+	fill: #ff8c00;
+	stroke: #fff;
+	stroke-width: 2;
+}
+
+.wheelnav-PieSlice-slice-basic-3 {
+    fill: #b5b5b5;
+	stroke: #fff;
+	stroke-width: 2;
+}
+
+.wheelnav-PieSlice-slice-basic-4 {
+    fill: #ffc21c;
+	stroke: #fff;
+	stroke-width: 2;
+}
+
+.wheelnav-PieSlice-slice-basic-5 {
+    fill: #64a4db;
+	stroke: #fff;
+	stroke-width: 2;
+}
+
+.wheelnav-PieSlice-slice-basic-6 {
+    fill: #6faf56;
+	stroke: #fff;
+	stroke-width: 2;
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+	height: 50px;
+	font-size: 16px;
+	line-height: 50px;
+	border-radius: 25px;
+	background-color: #f1f1f1;
+}
+
+.dot {
+	height: 25px;
+	width: 25px;
+	border-radius: 50%; 
+	display: inline-block;
+}
+
+.glyphicon-style {
+	font-size: 3em;  
+	display: block; 
+	margin: 10px 20px 10px 20px;
+}
+
+.glyphicon-style-remove {
+	font-size: 1.5em;  
+	margin: 10px 10px 10px 10px;
+}
+
+.questionCard-style {
+	max-width: 100%;
+}
+
+.questionTitle-style {
+	font-size: 2em;
+}
+
+.vertical-center {
+	position:relative; 
+	top:50%; 
+	transform:translateY(-50%);
+}
+
+.chart-container {
+	position: relative;
+	margin: auto;
+	height: 40vh;
+	width: 40vw;
+}
+
+.nav-pills {
+	font-size: 1rem;
+}
+
+.tableWheel {
+    width: 100%;
+    display:table;
+}
+
+.tbodyWheel {
+    display: inline-block;
+    width: 100%;
+	height:330px;
+    overflow: auto;
+	margin-right: 50px;
+}
+
+#tbodyEvaluation {
+	width: 100%;
+	height:100%;
+	margin-right: 0;
+	font-size: 1rem;
+	
+}
+
+.inline{
+	display : inline;
+}
+
+.block{
+	display : block;
+}
+
+.collapse.in {
+    display: block !important;
+}
+
+.collapseStyle {
+	font-size:1.2em;
+	color:black;
+}
+
+.matDescription {
+	font-size: 1.7rem;
+}
+
+
+ 
