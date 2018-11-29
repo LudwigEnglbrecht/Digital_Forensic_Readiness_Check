@@ -13,9 +13,9 @@ In order to host and run the web-based Digital Forensics Readiness Check you fir
 
 ### Steps to get started
 
-* Copy the files within /dfrweb into your web-root directory
-* Execute the SQL-queries within /dfr.sql (This script creates a new database at your MySQL Server)
-* Adjust /dfrweb/api.php according your MySQL-database account credentials
+* Copy the files within **/dfrweb/** into your web-root directory
+* Execute the SQL-queries within **/dfr.sql** (This script creates a new database at your MySQL Server)
+* Adjust **/dfrweb/api.php** according your MySQL-database account credentials
 
 * Open http://[yourdomain]/dfrweb/start.html in your browser
 
