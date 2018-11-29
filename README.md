@@ -7,7 +7,7 @@ The tool determines the levelof certain capabilities in an organisation based on
 <img src="docs/model.jpg" alt="A Capability Maturity Model for Digital Forensic Readiness" width="600px"/>
 
 **On the basis of this evaluation, specific measures can be initiated to make a company Digital Forensic ready.**
-
+ 
 
 ## Prerequisites and installation
 
@@ -16,7 +16,8 @@ In order to host and run the web-based Digital Forensics Readiness Check you fir
 * [Webserver with PHP-Support (e.g.: Apache)](https://httpd.apache.org/)
 * [MySQL Database](https://www.mysql.com/downloads/                )
 * [Browser with JavaScript support (e.g.: Chrome)](https://www.google.com/chrome/           )
-
+ 
+ 
 ### Steps to get started
 
 * Copy the files within **/dfrweb/** into your web-root directory
@@ -25,12 +26,13 @@ In order to host and run the web-based Digital Forensics Readiness Check you fir
 
 * Open http://[yourdomain]/dfrweb/start.html in your browser
 
-
+ 
 ## Theoretical background
 
 * ["Towards a Capability Maturity Model for Digital Forensic Readiness"](https://    ): Short Version
 * ["Towards a Capability Maturity Model for Digital Forensic Readiness"](https://    ): Extended Version
 
+ 
 ## Contact details
 
 E-Mail: Ludwig.Englbrecht@wiwi.uni-regensburg.de
