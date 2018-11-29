@@ -7,19 +7,22 @@ This is a web-based application to determine the maturity level of a company reg
 
 In order to host and run the web-based Digital Forensics Readiness Check you first need to install the following two softwares:
 
-* [Webserver with PHP-Support(e.g.: apache)](https://             )
-* [MySQL Database](https://                )
-* [Browser with JavaScript support](https://           )
+* [Webserver with PHP-Support (e.g.: Apache)](https://httpd.apache.org/)
+* [MySQL Database](https://www.mysql.com/downloads/                )
+* [Browser with JavaScript support (e.g.: Chrome)](https://www.google.com/chrome/           )
 
 ### Steps to get started
 
-* copy the files within /dfrweb into your web-root directory
-* Execute the SQL-Queries (This scritp creates a new database at your MySQL Server)
-* adjust /dfrweb/ according your MySQL-database account credentials
+* Copy the files within /dfrweb into your web-root directory
+* Execute the SQL-queries within /dfr.sql (This script creates a new database at your MySQL Server)
+* Adjust /dfrweb/api.php according your MySQL-database account credentials
+
+* Open http://[yourdomain]/dfrweb/start.html in your browser
 
 
 ## Theoretical background
 
+* ["Towards a Capability Maturity Model for Digital Forensic Readiness"](https://    ): Short Version
 * ["Towards a Capability Maturity Model for Digital Forensic Readiness"](https://    ): Extended Version
 
 ## Contact details
@@ -27,6 +30,15 @@ In order to host and run the web-based Digital Forensics Readiness Check you fir
 E-Mail: Ludwig.Englbrecht@wiwi.uni-regensburg.de
 
 Twitter: [LJESec](https://twitter.com/LJESec)
+
+
+## Used Third-party software
+
+* [jQuery](https://jquery.com/) 
+* [Bootstrap](https://getbootstrap.com/)
+* [Bootswatch](https://bootswatch.com/)
+* [wheelnav](http://wheelnavjs.softwaretailoring.net/) [wheelnav on GitHub](https://github.com/softwaretailoring/wheelnav)
+
 
 ## License
 
