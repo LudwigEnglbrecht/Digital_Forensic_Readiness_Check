@@ -40,7 +40,7 @@ E-Mail: Ludwig.Englbrecht@wiwi.uni-regensburg.de
 Twitter: [LJESec](https://twitter.com/LJESec)
 
 
-## Used Third-party software
+## Used third-party software
 
 * [jQuery](https://jquery.com/) 
 * [Bootstrap](https://getbootstrap.com/)
