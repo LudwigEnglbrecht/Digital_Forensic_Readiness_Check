@@ -2,7 +2,7 @@
 
 This is a web-based application to determine the maturity level of a company regarding Digital Forensic Readiness. The theoretical basis for this tool can be found in the paper with the title "Towards a Capability Maturity Model for Digital Forensic Readiness".
 
-The tool determines the levelof certain capabilities in an organisation based on the seven COBIT 5 enablers and derives a maturity level from this. The following graphic illustrates the concept for evaluating the implemented measures for digital forensic readiness
+The tool determines the level of certain capabilities in an organization based on the seven COBIT 5 enablers and derives a maturity level from this. The following graphic illustrates the concept for evaluating the implemented measures for digital forensic readiness
 
 <img src="docs/model.jpg" alt="A Capability Maturity Model for Digital Forensic Readiness" width="600px"/>
 
