@@ -29,8 +29,8 @@ In order to host and run the web-based Digital Forensics Readiness Check you fir
  
 ## Theoretical background
 
-* ["Towards a Capability Maturity Model for Digital Forensic Readiness"](https://    ): Short Version
-* ["Towards a Capability Maturity Model for Digital Forensic Readiness"](https://    ): Extended Version
+* ["Towards a Capability Maturity Model for Digital Forensic Readiness"](https://doi.org/10.1007/s11276-018-01920-5): Extended Journal Version
+* ["Towards a Capability Maturity Model for Digital Forensic Readiness"](https://doi.org/10.1007/978-3-030-03898-4_10  ): Short Version
 
  
 ## Contact details
