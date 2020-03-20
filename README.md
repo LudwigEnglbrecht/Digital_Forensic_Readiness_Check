@@ -33,6 +33,28 @@ In order to host and run the web-based Digital Forensics Readiness Check you fir
 
 * ["Towards a Capability Maturity Model for Digital Forensic Readiness"](https://www.researchgate.net/publication/330517032_Toward_a_Capability_Maturity_Model_for_Digital_Forensic_Readiness): Short Version [(DOI)](https://doi.org/10.1007/978-3-030-03898-4_10)
 
+## Citing the Digital Forensic Readiness Check
+
+To cite the Digital Forensic Readiness Check in academic papers, please use the following BibTeX entry.
+
+```
+@Article{Englbrecht2019,
+    author="Englbrecht, Ludwig
+    and Meier, Stefan
+    and Pernul, G{\"u}nther",
+    title="Towards a capability maturity model for digital forensic readiness",
+    journal="Wireless Networks",
+    year="2019",
+    month="Jan",
+    day="01",
+    issn="1572-8196",
+    doi="10.1007/s11276-018-01920-5",
+    url="https://doi.org/10.1007/s11276-018-01920-5"
+}
+```
+
+
+
  
 ## Contact details
 
