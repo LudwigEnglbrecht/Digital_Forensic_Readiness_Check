@@ -33,7 +33,7 @@ In order to host and run the web-based Digital Forensics Readiness Check you fir
 
 * ["Towards a Capability Maturity Model for Digital Forensic Readiness"](https://www.researchgate.net/publication/330517032_Toward_a_Capability_Maturity_Model_for_Digital_Forensic_Readiness): Short Version [(DOI)](https://doi.org/10.1007/978-3-030-03898-4_10)
 
-## Citing the Digital Forensic Readiness Check
+### Citing the Digital Forensic Readiness Check
 
 To cite the Digital Forensic Readiness Check in academic papers, please use the following BibTeX entry.
 
